@@ -29,323 +29,315 @@ Publish the website in the LocalHost.
 ```
 index.html
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design Portfolio</title>
+<head>
+    <title>#Dribble </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="top-bar">
-        <input type="text" class="search-bar" placeholder="Search...">
-        <a href="#" class="nav-item">Explore</a>
-        <a href="#" class="nav-item">Hire a Designer</a>
-        <a href="#" class="nav-item">Find Jobs</a>
-        <a href="#" class="nav-item">Blog</a>
-        <a href="#" class="nav-item blue-text">Sign up</a>
-        <a href="#" class="nav-item blue-text">Log in</a>
+ <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container d-flex align-items-center justify-content-between">
+        <a class="navbar-brand" href="#">Dribbble</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Caramelize</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Bake</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Baste</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Broil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Al dente</a></li>
+            </ul>
+        </div>
+        <a class="btn  text-white" href="#">Sign in</a>
+        <a class="btn  text-white" href="#">Sign Up</a>
+        <input type="search" class=" form-control fs-8" style="margin: 7px; width: 150px; margin-right:7px ;" placeholder="Search">
     </div>
-
-    <header>
-        <div class="header-content">
-            <h1>Discover the world’s top designers</h1>
-            <p>Explore work from the most talented and accomplished designers ready to take on your next project</p>
-            <input type="text" class="search-input" placeholder="What are you looking for?">
-        </div>
-    </header>
-
-    <section class="trending">
-        <h2>Trending Searches</h2>
-        <div class="trending-tags">
-            <span>landing page</span>
-            <span>e-commerce</span>
-            <span>mobile app</span>
-            <span>logo design</span>
-            <span>dashboard</span>
-            <span>icons</span>
-        </div>
-    </section>
-
-    <section class="gallery">
-
-        <div class="card">
-            <img src="4.jpg" alt="Design Sample">
-            <h3>Momos</h3>
-            <p>HR Team | 9.2k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="3.jpg" alt="Design Sample">
-            <h3>Fried Chicken</h3>
-            <p>HR Team | 10.2k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="9.jpg" alt="Design Sample">
-            <h3>Pizza</h3>
-            <p>HR Team | 6.2k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="7.jpg" alt="Design Sample">
-            <h3>Chocolate Shake</h3>
-            <p>HR Team | 13.2k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="6.jpg" alt="Design Sample">
-            <h3>Kuanfa</h3>
-            <p>HR Team | 15.2k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="8.jpg" alt="Design Sample">
-            <h3>Strawberry Cake</h3>
-            <p>HR Team | 8.2k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="2.jpg" alt="Design Sample">
-            <h3>Falooda</h3>
-            <p>HR Team | 16.2k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="5.jpg" alt="Design Sample">
-            <h3>Pista Shake</h3>
-            <p>HR Team | 10.2k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="10.jpg" alt="Design Sample">
-            <h3>Oreo Icecream</h3>
-            <p>HR Team | 9.2k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="11.jpg" alt="Design Sample">
-            <h3>Chocobar</h3>
-            <p>HR Team | 14.4k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="12.jpg" alt="Design Sample">
-            <h3>Paneer Noodles</h3>
-            <p>HR Team | 13.2k Views</p>
-        </div>
-
-        <div class="card">
-            <img src="1.jpg" alt="Design Sample">
-            <h3>Sandwich And Fries</h3>
-            <p>HR Team | 16.2k Views</p>
-        </div>
-        
-    </section>
-
     
-    <footer>
-        <p>&copy; 2024 Design Portfolio!All rights reserved.</p>
-        <p>Designed And Developed By:Hari Ram (24005836)</p>
+    </nav>
+    <section id="home" style="background-color: rgb(32, 14, 14);">
+       <div class="row" style="background-color: rgb(22, 19, 19);">
+            <div class="col-lg-6 col-md-6 col-12 order-1 pt-5" style="background-color: rgb(149, 192, 225);">
+               
+                    <h1 class="display-4">What are you waiting for?</h1>
+                    <p class="my-lg-3 my-3">Dribbble is a online food platform for customers.</p>
+                        <button class="btn" style="background-color: rgb(113, 209, 234);">View More</a>
+                        <button class="btn text-white" style="background-color: rgb(199, 142, 223);">Sign up</a>
+            </div>
+                    <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 order-sm-2">
+                        <img src="bg.jpg" class="img-fluid">
+                    </div>
+            
+        </div>
+    </section>
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <h2 class="mb-0">Trending</h2>
+                </div>
+                <div class="col-md-4 text-center">
+                    <button class="btn btn-light btn-sm" style="background-color: #cfd2da;">New</button>
+                    <button class="btn btn-light btn-sm" style="background-color: #cfd2da;">Bites</button>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3 col-sm-6">
+                    <div class="card shot-card">
+                        <img src="1.jpg" width="300" height="225">
+                      
+                        <div class="card-body text-center">
+                            <p class="card-text mb-0">@ Sandwich And Fries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card shot-card">
+                        <img src="2.jpg" width="300" height="225">
+                        
+                        <div class="card-body text-center">
+                            <p class="card-text mb-0">@ Falooda</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card shot-card">
+                        <img src="3.jpg" width="300" height="225">
+                        <div class="card-body text-center">
+                            <p class="card-text mb-0">@ Fried Chicken</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card shot-card">
+                        <img src="4.jpg" class="card-img-top" alt="Shot 2">
+                       
+                        <div class="card-body text-center">
+                            <p class="card-text mb-0">@ Momos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card shot-card">
+                        <img src="5.jpg" class="card-img-top" alt="Shot 2">
+                        <div class="card-body text-center">
+                            <p class="card-text mb-0">@ Pista Milkshake</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card shot-card">
+                        <img src="6.jpg" width="300" height="225">
+                        
+                        <div class="card-body text-center">
+                            <p class="card-text mb-0">@ Kunafa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card shot-card">
+                        <img src="7.jpg"width="300" height="225">
+                        <div class="card-body text-center">
+                            <p class="card-text mb-0">@ Choco Shake</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card shot-card">
+                    <img src="8.jpg"width="300" height="225">
+                    <div class="card-body text-center">
+                        <p class="card-text mb-0">@ Strawberry Cake</p>
+                    </div>
+                  </div>
+                </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card shot-card">
+                    <img src="9.jpg"width="300" height="225">
+                    <div class="card-body text-center">
+                        <p class="card-text mb-0">@ Pizza</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card shot-card">
+                        <img src="10.jpg" class="card-img-top" alt="Shot 2">
+                        <div class="card-body text-center">
+                            <p class="card-text mb-0">@ Mcflurry</p>
+                        </div>
+                    </div>
+                </div>
+    <div class="col-md-3 col-sm-6">
+        <div class="card shot-card">
+            <img src="11.jpg"width="300" height="225">
+            <div class="card-body text-center">
+                <p class="card-text mb-0">@ Chocobar</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="card shot-card">
+                <img src="12.jpg"width="300" height="225">
+                <div class="card-body text-center">
+                    <p class="card-text mb-0">@ Paneer Noodles</p>
+                    </div>
+                </div>
+            </div>
+           </section>
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p class="mb-0">Designed and developed by HARI RAM R (24005836)</p>
+        </div>
     </footer>
-
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
 style.css
 
-body, h1, h2, p, a, input, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
-    background-color: #f5f5f5;
-    color: #333;
+    background-color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.top-bar {
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.navbar-brand {
+    font-weight: bold;
+    color: #ff5678;
+    font-family: monospace;
 }
-
-.search-bar {
+.nav-link {
+    color:white!important;
     margin-right: 15px;
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    outline: none;
 }
-
-.nav-item {
-    margin: 0 10px;
-    color: #333;
-    text-decoration: none;
-}
-
-.blue-text {
-    color: #007bff;
+.btn
+{
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    margin:5px;
+    border: 2px solid #666;
+    border-radius: 5px;
     font-weight: bold;
 }
-
-.blue-text:hover {
-    text-decoration: underline;
+#home .container {
+    gap: 20px; /
 }
-
-header {
-    background-image: url('bg1.jpg'); 
-    background-size: cover;
-    padding: 80px 20px;
+.img-content img {
+    max-width:50%;
+    height: 50px;
+}
+.btn-primary:hover {
+    background-color: #cfd2da;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+section{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #ff5678 !important;
+    font-family: monospace;
+}
+.nav-link {
+    color:white!important;
+    margin-right: 15px;
+}
+#home .container {
+    gap: 5px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+#home img {
+    max-width: 70%;
+    height: auto;
+    margin-top: 20px;
+}
+.btn-primary:hover {
+    background-color: #cfd2da;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+section{
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.shot-card img {
+    border-radius: 5px;
+}
+.shot-card {
+    transition: transform 0.2s ease-in-out;
+}
+.shot-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+footer {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px 0;
     text-align: center;
-    color: #fff;
 }
-
-.header-content h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+.hero-section h1 {
+    font-size: 2.5rem;
+    color: #333;
 }
-
-.header-content p {
-    font-size: 18px;
+.hero-section p {
+    font-size: 1.2rem;
     margin-bottom: 20px;
+    color: #666;
 }
-
-.search-input {
-    padding: 10px;
-    width: 60%;
-    max-width: 500px;
-    border: none;
-    border-radius: 4px;
-    outline: none;
+.shot-card img {
+    border-radius: 5px;
+    
 }
-
-.trending {
-    padding: 20px;
-    text-align: center;
+.shot-card {
+    transition: transform 0.2s ease-in-out;
 }
-
-.trending h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.trending-tags {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.trending-tags span {
-    background-color: #007bff;
-    color: #fff;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-.gallery {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card {
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    width: 200px;
-    text-align: center;
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-}
-
-.card h3 {
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.card p {
-    font-size: 12px;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-.gallery {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card {
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    overflow: hidden;
-    width: 200px;
-    text-align: center;
-    position: relative;
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-
-.card:hover img {
-    transform: scale(1.2); 
-}
-
-.card h3 {
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.card p {
-    font-size: 12px;
-    color: #555;
-    margin-bottom: 10px;
+.shot-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+   font-family:'Poppins', sans-serif;
+    padding: 20px 0;
     text-align: center;
-    padding: 10px 20px;
-    margin-top: 20px;
 }
 
-script.js
+#home .row {
+    width: 70%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
 
-const searchBar = document.querySelector('.search-bar');
+#home h1 {
+    font-size: 2.5rem; 
+    font-weight: 40 bold;
+    margin-top: 40px;
+    margin-right: 3px;
+    font-family: 'Poppins', sans-serif;
+}
 
-searchBar.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-        event.preventDefault(); 
-        alert(`Searching for: ${searchBar.value}`);
-    }
-});
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2024-12-19 194459-1.png>)
+![alt text](<Screenshot 2024-12-22 195634-1.png>) 
+![alt text](<Screenshot 2024-12-22 195648-1.png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
